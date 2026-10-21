@@ -60,7 +60,7 @@
     }));
     lede.textContent = copy.lede;
     const ca = document.querySelector("[data-ca]");
-    if (ca) ca.textContent = copy.ca || "0x9cf7b8cDD3384b6cC4DCeB45B871cC1f214B1146";
+    if (ca) ca.textContent = copy.ca || "0x21175bd2e7a7bec2c391fe7922145dfed0d32eb0";
     openApp.textContent = copy.openApp;
     launch.firstChild.textContent = copy.ctaLaunch + " ";
     today.textContent = copy.time.today;

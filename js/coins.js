@@ -1,5 +1,5 @@
 window.PANGEA_COINS = [
-  { id: "pangea", tick: "PA", name: "Pangea", symbol: "PANGEA", chains: 5, age: "1h ago", ageMin: 60, chain: "ETH", addr: "0x9cf7b8cDD3384b6cC4DCeB45B871cC1f214B1146", mcap: 1740000, chg: 11471.38, price: "$0.0₃3504", vol: 1730000, pools: 149000, bought: 90.8, color: "#111113", ink: "#f5f3ed" },
+  { id: "pangea", tick: "PA", name: "Pangea", symbol: "PANGEA", chains: 5, age: "1h ago", ageMin: 60, chain: "ETH", addr: "0x21175bd2e7a7bec2c391fe7922145dfed0d32eb0", mcap: 1740000, chg: 11471.38, price: "$0.0₃3504", vol: 1730000, pools: 149000, bought: 90.8, color: "#111113", ink: "#f5f3ed" },
   { id: "pcat", tick: "PC", name: "Pangea Cat", symbol: "PCAT", chains: 5, age: "2h ago", ageMin: 120, chain: "ETH", addr: "TBA", mcap: 37900, chg: 152.09, price: "$0.0₅7588", vol: 89200, pools: 8800, bought: 36.8, color: "#F0B90B" },
   { id: "pve", tick: "PV", name: "PVE", symbol: "PVE", chains: 5, age: "41m ago", ageMin: 41, chain: "ETH", addr: "TBA", mcap: 18400, chg: 21.19, price: "$0.0₅3670", vol: 13900, pools: 1500, bought: 9.2, color: "#35E07A" },
   { id: "earth", tick: "0x", name: "Flat Earth", symbol: "0XFEARTH", chains: 5, age: "2h ago", ageMin: 118, chain: "ETH", addr: "TBA", mcap: 16300, chg: 8.29, price: "$0.0₅3260", vol: 12200, pools: 560, bought: 3.5, color: "#2F7CFF" },
