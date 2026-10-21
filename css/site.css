@@ -239,6 +239,15 @@ body:has(.kn-hero[data-theme="dark"]) { background: #09090a; }
   font-size: clamp(17px, 1.42vw, 22px);
   line-height: 1.38;
 }
+.kn-ca {
+  max-width: 36em;
+  margin: 14px 0 0;
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 13px;
+  line-height: 1.4;
+  word-break: break-all;
+}
 .kn-cta { flex-wrap: wrap; gap: 10px; margin-top: clamp(20px, 3vh, 32px); display: flex; }
 .kn-hero .kn-cta a { height: 52px; padding: 0 26px; font-size: 16px; }
 .kn-world { min-width: 0; }

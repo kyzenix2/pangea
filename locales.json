@@ -34,7 +34,7 @@
         "ago": "{n} million years ago"
       },
       "buy": "Buy Pangea",
-      "ca": "CA: TBA at launch",
+      "ca": "0x317eebfb25a3d5df6aa6c3d0d5080ebd3c5fc0ad",
       "app": {
         "home": "Home",
         "explore": "Explore",
@@ -86,7 +86,7 @@
         "ago": "{n} 百万年前"
       },
       "buy": "购买 Pangea",
-      "ca": "合约地址：上线时公布",
+      "ca": "0x317eebfb25a3d5df6aa6c3d0d5080ebd3c5fc0ad",
       "app": {
         "home": "首页",
         "explore": "浏览",
@@ -138,7 +138,7 @@
         "ago": "{n} 百万年前"
       },
       "buy": "Pangea を購入",
-      "ca": "CA: ローンチ時に公開",
+      "ca": "0x317eebfb25a3d5df6aa6c3d0d5080ebd3c5fc0ad",
       "app": {
         "home": "ホーム",
         "explore": "探す",
@@ -190,7 +190,7 @@
         "ago": "{n}백만 년 전"
       },
       "buy": "Pangea 구매",
-      "ca": "CA: 출시 시 공개",
+      "ca": "0x317eebfb25a3d5df6aa6c3d0d5080ebd3c5fc0ad",
       "app": {
         "home": "홈",
         "explore": "탐색",
@@ -242,7 +242,7 @@
         "ago": "hace {n} millones de años"
       },
       "buy": "Comprar Pangea",
-      "ca": "CA: se anunciará en el lanzamiento",
+      "ca": "0x317eebfb25a3d5df6aa6c3d0d5080ebd3c5fc0ad",
       "app": {
         "home": "Inicio",
         "explore": "Explorar",
@@ -294,7 +294,7 @@
         "ago": "há {n} milhões de anos"
       },
       "buy": "Comprar Pangea",
-      "ca": "CA: a anunciar no lançamento",
+      "ca": "0x317eebfb25a3d5df6aa6c3d0d5080ebd3c5fc0ad",
       "app": {
         "home": "Início",
         "explore": "Explorar",
@@ -346,7 +346,7 @@
         "ago": "{n} млн лет назад"
       },
       "buy": "Купить Pangea",
-      "ca": "CA: будет объявлен на запуске",
+      "ca": "0x317eebfb25a3d5df6aa6c3d0d5080ebd3c5fc0ad",
       "app": {
         "home": "Главная",
         "explore": "Обзор",
@@ -398,7 +398,7 @@
         "ago": "{n} milyon yıl önce"
       },
       "buy": "Pangea satın al",
-      "ca": "CA: lansmanda açıklanacak",
+      "ca": "0x317eebfb25a3d5df6aa6c3d0d5080ebd3c5fc0ad",
       "app": {
         "home": "Ana sayfa",
         "explore": "Keşfet",
@@ -450,7 +450,7 @@
         "ago": "il y a {n} millions d’années"
       },
       "buy": "Acheter Pangea",
-      "ca": "CA : communiqué au lancement",
+      "ca": "0x317eebfb25a3d5df6aa6c3d0d5080ebd3c5fc0ad",
       "app": {
         "home": "Accueil",
         "explore": "Explorer",
@@ -502,7 +502,7 @@
         "ago": "vor {n} Mio. Jahren"
       },
       "buy": "Pangea kaufen",
-      "ca": "CA: wird beim Launch bekannt gegeben",
+      "ca": "0x317eebfb25a3d5df6aa6c3d0d5080ebd3c5fc0ad",
       "app": {
         "home": "Start",
         "explore": "Entdecken",
