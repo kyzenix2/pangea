@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live data · Pangea</title>
+  <link rel="icon" href="../logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..800&family=Instrument+Sans:wght@400..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/site.css">
+  <script src="../js/theme.js"></script>
+</head>
+<body>
+  <div class="app" data-page="live">
+    <aside class="app-side"></aside>
+    <main class="app-main">
+      <div class="app-top"></div>
+      <h1 class="page-title">Live data</h1>
+      <p class="page-lede">Prices, depth and volume from the five pools. This preview uses a snapshot of the board, not a live chain read.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Token</th><th>Price</th><th>Market cap</th><th>24h volume</th><th>In pools</th><th>24h</th><th>Chains</th></tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+  <script src="../js/mark.js"></script>
+  <script src="../js/coins.js"></script>
+  <script src="../js/shell.js"></script>
+  <script>
+    const body = document.getElementById("rows");
+    window.PANGEA_COINS.forEach((coin) => {
+      const sign = coin.chg > 0 ? "+" : "";
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td><a href="token.html?id=${coin.id}">${coin.name} <span style="color:var(--dim)">$${coin.symbol}</span></a></td><td>${coin.price}</td><td>${window.pangeaMoney(coin.mcap)}</td><td>${window.pangeaMoney(coin.vol)}</td><td>${window.pangeaMoney(coin.pools)}</td><td>${sign}${coin.chg.toFixed(2)}%</td><td>${coin.chains} / 5</td>`;
+      body.append(tr);
+    });
+  </script>
+</body>
+</html>

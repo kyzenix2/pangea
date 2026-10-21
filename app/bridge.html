@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bridge · Pangea</title>
+  <link rel="icon" href="../logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..800&family=Instrument+Sans:wght@400..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/site.css">
+  <script src="../js/theme.js"></script>
+</head>
+<body>
+  <div class="app" data-page="bridge">
+    <aside class="app-side"></aside>
+    <main class="app-main">
+      <div class="app-top"></div>
+      <h1 class="page-title">Bridge</h1>
+      <p class="page-lede">Burned on the chain you send from, minted where they arrive. The total across the five chains stays the same. Nothing is wrapped.</p>
+      <form class="panel" id="bridge-form">
+        <label class="field">Token
+          <select id="token"></select>
+        </label>
+        <div class="swap">
+          <label class="field">From
+            <select id="from">
+              <option>Ethereum</option><option>Base</option><option>Robinhood Chain</option><option>BSC</option><option>Solana</option>
+            </select>
+          </label>
+          <button type="button" class="ghost" id="flip" aria-label="Swap direction" style="height:42px;margin-bottom:14px">↕</button>
+          <label class="field">To
+            <select id="to">
+              <option>Base</option><option>Ethereum</option><option>Robinhood Chain</option><option>BSC</option><option>Solana</option>
+            </select>
+          </label>
+        </div>
+        <label class="field">Amount<input id="amount" inputmode="decimal" value="1000"></label>
+        <div class="choice">
+          <button type="button" class="ghost" data-lane="standard" aria-pressed="true">Standard</button>
+          <button type="button" class="ghost" data-lane="fast" aria-pressed="false">Fast</button>
+        </div>
+        <p class="quote" id="breakdown">You send 1,000. The token keeps 2. 998 arrive. Message fee is quoted before you sign.</p>
+        <button class="primary" type="button" data-connect>Connect a wallet</button>
+      </form>
+    </main>
+  </div>
+  <script src="../js/mark.js"></script>
+  <script src="../js/coins.js"></script>
+  <script src="../js/shell.js"></script>
+  <script>
+    const token = document.getElementById("token");
+    window.PANGEA_COINS.forEach((coin) => {
+      const option = document.createElement("option");
+      option.value = coin.id;
+      option.textContent = coin.name + " $" + coin.symbol;
+      token.append(option);
+    });
+    const params = new URLSearchParams(location.search);
+    if (params.get("token")) token.value = params.get("token");
+    const from = document.getElementById("from");
+    const to = document.getElementById("to");
+    document.getElementById("flip").addEventListener("click", () => {
+      const next = from.value;
+      from.value = to.value;
+      to.value = next;
+    });
+    let lane = "standard";
+    document.querySelectorAll("[data-lane]").forEach((button) => {
+      button.addEventListener("click", () => {
+        lane = button.dataset.lane;
+        document.querySelectorAll("[data-lane]").forEach((item) => item.setAttribute("aria-pressed", item === button ? "true" : "false"));
+        paint();
+      });
+    });
+    const amount = document.getElementById("amount");
+    const breakdown = document.getElementById("breakdown");
+    function paint() {
+      const n = Number(amount.value) || 0;
+      const fee = n * 0.002;
+      const extra = lane === "fast" ? " Fast adds the lane’s own 0.2% when a relayer is quoting." : " Standard arrives in about 4 to 16 seconds.";
+      breakdown.textContent = "You send " + n.toLocaleString() + ". The token keeps " + fee.toLocaleString() + ". " + (n - fee).toLocaleString() + " arrive." + extra;
+    }
+    amount.addEventListener("input", paint);
+  </script>
+</body>
+</html>

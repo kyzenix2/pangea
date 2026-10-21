@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Launch a token · Pangea</title>
+  <link rel="icon" href="../logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..800&family=Instrument+Sans:wght@400..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/site.css">
+  <script src="../js/theme.js"></script>
+</head>
+<body>
+  <div class="app" data-page="launch">
+    <aside class="app-side"></aside>
+    <main class="app-main">
+      <div class="app-top"></div>
+      <h1 class="page-title">Launch a token</h1>
+      <p class="page-lede">One payment, on the chain you already use. The same coin opens on Ethereum, Base, Robinhood Chain, BSC and Solana, each with its own pool, at the same dollar price.</p>
+      <form class="panel" id="launch-form">
+        <div class="row-2">
+          <label class="field">Name<input name="name" required placeholder="Pangea"></label>
+          <label class="field">Ticker<input name="ticker" required placeholder="PANGEA" maxlength="12"></label>
+        </div>
+        <label class="field">Description<textarea name="about" rows="3" placeholder="What the coin is for"></textarea></label>
+        <div class="row-2">
+          <label class="field">Trading fee
+            <select name="fee">
+              <option>0.3%</option>
+              <option selected>1%</option>
+              <option>2%</option>
+              <option>5%</option>
+            </select>
+          </label>
+          <label class="field">Pay the launch fee on
+            <select name="pay">
+              <option>Ethereum</option>
+              <option>Base</option>
+              <option>Robinhood Chain</option>
+              <option selected>BSC</option>
+              <option>Solana</option>
+            </select>
+          </label>
+        </div>
+        <label class="field" style="flex-direction:row;align-items:center;gap:8px"><input type="checkbox" checked> Open all bridge routes at launch</label>
+        <p class="quote">Quoted launch fee about $8.40. Gas on the four EVM chains, Solana rent, and a 20% margin. A dev buy is optional and paid on top.</p>
+        <button class="primary" type="submit">Prepare launch</button>
+      </form>
+    </main>
+  </div>
+  <script src="../js/mark.js"></script>
+  <script src="../js/coins.js"></script>
+  <script src="../js/shell.js"></script>
+  <script>
+    document.getElementById("launch-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const toast = document.createElement("div");
+      toast.className = "toast";
+      toast.textContent = "Preview only. Nothing was deployed.";
+      document.body.append(toast);
+      setTimeout(() => toast.remove(), 2400);
+    });
+  </script>
+</body>
+</html>

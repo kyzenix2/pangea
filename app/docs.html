@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Docs · Pangea</title>
+  <link rel="icon" href="../logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..800&family=Instrument+Sans:wght@400..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/site.css">
+  <script src="../js/theme.js"></script>
+</head>
+<body>
+  <div class="app" data-page="docs">
+    <aside class="app-side"></aside>
+    <main class="app-main">
+      <div class="app-top"></div>
+      <h1 class="page-title">Docs</h1>
+      <div class="docs">
+        <nav aria-label="Contents">
+          <a href="#how">How it works</a>
+          <a href="#pools">The five pools</a>
+          <a href="#contracts">Five contracts</a>
+          <a href="#mcap">Market cap</a>
+          <a href="#fee">Launch fee</a>
+          <a href="#trade">Trading fee</a>
+          <a href="#tokenomics">$PANGEA</a>
+          <a href="#bridge">Bridging</a>
+        </nav>
+        <article>
+          <ul>
+            <li>Every token launches on five chains at once, into five pools. No bonding curve, no sequencer, no keeper.</li>
+            <li>Price is kept together by arbitrage, using LayerZero omnichain tokens.</li>
+            <li>Liquidity is locked on every chain. No contract function withdraws it.</li>
+          </ul>
+          <h2 id="how">How it works</h2>
+          <p>Every launch deploys the same token on five chains at once. Each chain gets 1 billion tokens in its liquidity pool, and all five pools open at the same US dollar price.</p>
+          <p>All tokens go into liquidity from the start. There is no team allocation, treasury or vesting. Each pool starts with tokens only and collects the quote asset as people buy.</p>
+          <p>Each chain operates on its own. Arbitrage, open to anyone, is what keeps the five prices together: buy on a cheaper chain and sell on a more expensive one.</p>
+          <h2 id="pools">The five pools</h2>
+          <p>Each chain gets 1 billion tokens in a concentrated liquidity position. As the price rises, the pool sells tokens and collects the quote asset. Each pool pays sellers from its own reserves.</p>
+          <h2 id="contracts">Five contracts, one token</h2>
+          <p>Each chain has its own contract and address, so buyers choose where to trade. Addresses differ by chain, and the ones issued here share a common ending, <b>6ea</b>. Across five chains that is 5 billion tokens, while each contract reports its own 1 billion supply.</p>
+          <h2 id="mcap">The market cap situation</h2>
+          <p>Terminals add up supply differently. A token’s full market cap is the sum of its market caps on all five chains. The price is the same on every one of them. The page on this site is the place that shows the complete figure.</p>
+          <h2 id="fee">Launch fee</h2>
+          <p>You pay once, from your own wallet, in the native asset of one chain. That payment covers the launch on all five, so the other four need no funds. It pays for EVM gas, Solana rent and fees, and a 20% margin. The quote moves with gas and with ETH, BNB and SOL. A launch is often about $8 to $10. A dev buy is optional and shown separately.</p>
+          <h2 id="trade">Trading fee</h2>
+          <p>Each launch sets a trading fee between 0.3% and 5%, once. Nothing changes it afterwards. The platform takes 20% of that fee, with a floor of 0.2% of volume. The creator receives the rest. Fees are paid in the quote asset: ETH, BNB or SOL.</p>
+          <h2 id="tokenomics">PANGEA tokenomics</h2>
+          <p>$PANGEA launched through the same five-chain structure as every other token. 80% of platform revenue buys PANGEA and burns it. The other 20% stays with the platform. The arbitrage that keeps $PANGEA at one price spends its profit buying it back, cheapest chains first.</p>
+          <h2 id="bridge">Bridging</h2>
+          <p>Transfers use LayerZero. Tokens burn on the source chain and mint on the destination, so the total across the five chains does not change.</p>
+          <p>A standard transfer is attested after one confirmation and typically arrives in 4 to 16 seconds. A fast transfer is paid by a relayer immediately and costs an extra 0.2%.</p>
+          <p>Every transfer keeps 0.2% for the platform, plus LayerZero’s message fee in the source chain’s native asset. The first transfer on an unused Solana route also pays a one-time setup. A launch can open all four Solana routes up front. Of 1,000 tokens sent, 2 stay with the platform and 998 arrive.</p>
+        </article>
+      </div>
+    </main>
+  </div>
+  <script src="../js/mark.js"></script>
+  <script src="../js/coins.js"></script>
+  <script src="../js/shell.js"></script>
+</body>
+</html>

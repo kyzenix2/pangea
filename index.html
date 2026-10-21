@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pangea: one coin, five chains, one price</title>
+  <meta name="description" content="Launch a coin once and it is live on Ethereum, Base, Robinhood Chain, BSC and Solana at the same price. Buy and sell from the chain you already use.">
+  <link rel="icon" href="logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..800&family=Instrument+Sans:wght@400..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("pangea.theme");
+        var c = t === "light" || t === "dark" ? t : null;
+        var d = document.documentElement;
+        d.dataset.theme = c || "auto";
+        if ((c || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark") d.classList.add("dark");
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div class="kn-hero" data-theme="auto" style="--t:0%">
+    <header class="kn-bar">
+      <a class="kn-brand" href="index.html"><span data-mark="26"></span><span>Pangea</span></a>
+      <nav class="kn-nav">
+        <a href="app/explore.html">Explore</a>
+        <a href="app/launch.html">Launch</a>
+        <a href="app/bridge.html">Bridge</a>
+        <a href="app/live.html">Live data</a>
+      </nav>
+      <nav class="kn-langs" aria-label="Language">
+        <button type="button" lang="en" title="English" aria-label="English" data-on="1">EN</button>
+        <button type="button" lang="zh" title="中文" aria-label="中文" data-on="0">中文</button>
+        <button type="button" lang="ja" title="日本語" aria-label="日本語" data-on="0">日本語</button>
+        <button type="button" lang="ko" title="한국어" aria-label="한국어" data-on="0">한국어</button>
+        <button type="button" lang="es" title="Español" aria-label="Español" data-on="0">ES</button>
+        <button type="button" lang="pt" title="Português" aria-label="Português" data-on="0">PT</button>
+        <button type="button" lang="ru" title="Русский" aria-label="Русский" data-on="0">RU</button>
+        <button type="button" lang="tr" title="Türkçe" aria-label="Türkçe" data-on="0">TR</button>
+        <button type="button" lang="fr" title="Français" aria-label="Français" data-on="0">FR</button>
+        <button type="button" lang="de" title="Deutsch" aria-label="Deutsch" data-on="0">DE</button>
+      </nav>
+      <span class="kn-pick">
+        <select aria-label="Language">
+          <option value="en">English</option>
+          <option value="zh">中文</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="es">Español</option>
+          <option value="pt">Português</option>
+          <option value="ru">Русский</option>
+          <option value="tr">Türkçe</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+        </select>
+        <span aria-hidden="true">▾</span>
+      </span>
+      <button type="button" class="kn-round" aria-label="Switch between light and dark">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.8"></circle><path d="M12 3.75a8.25 8.25 0 0 1 0 16.5z" fill="currentColor"></path></svg>
+      </button>
+      <a class="kn-x" href="https://x.com/LaunchOnPangea" target="_blank" rel="noreferrer" aria-label="Pangea on X">
+        <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+      </a>
+      <a class="kn-pill" data-open href="app/explore.html">Open app</a>
+    </header>
+    <div class="kn-stage">
+      <main class="kn-say">
+        <div class="kn-five" aria-hidden="true">
+          <i style="background:#8C8DFB"></i>
+          <i style="background:#2F7CFF"></i>
+          <i style="background:#35E07A"></i>
+          <i style="background:#F0B90B"></i>
+          <i style="background:#9945FF"></i>
+        </div>
+        <h1 class="kn-claim"><span>One coin, </span><span>five chains, </span><span>one price.</span></h1>
+        <p class="kn-lede">Launch your coin once and it's live on five chains at the same price. Buy and sell from whichever one you already use.</p>
+        <div class="kn-cta">
+          <a class="kn-pill" data-launch href="app/launch.html">Launch a token <span aria-hidden="true">→</span></a>
+          <a class="kn-ghost" href="app/docs.html">Docs</a>
+          <a class="kn-x kn-x-low" href="https://x.com/LaunchOnPangea" target="_blank" rel="noreferrer" aria-label="Pangea on X">
+            <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+          </a>
+        </div>
+      </main>
+      <section class="kn-world" aria-label="Pangea">
+        <canvas class="kn-canvas"></canvas>
+        <div class="kn-time">
+          <span data-today data-on="1">Today</span>
+          <div class="kn-track" role="slider" tabindex="0" aria-orientation="horizontal" aria-label="Today, Pangea" aria-valuemin="0" aria-valuemax="250" aria-valuenow="0" aria-valuetext="Now">
+            <div class="kn-rail"></div>
+            <div class="kn-fill"></div>
+            <div class="kn-knob"></div>
+            <div class="kn-when" aria-hidden="true">Now</div>
+          </div>
+          <span data-future data-on="0">Pangea</span>
+        </div>
+      </section>
+    </div>
+    <footer class="kn-foot">
+      <ol class="kn-steps">
+        <li data-on="1"><button type="button" aria-current="step"><span class="kn-tag">The problem</span>A coin takes off on one chain and copies of it show up on the other four.</button></li>
+        <li data-on="0"><button type="button"><span class="kn-tag">What it causes</span>Buyers and liquidity split, and holders end up trading against each other. That is PVP.</button></li>
+        <li data-on="0"><button type="button"><span class="kn-tag">Pangea</span>One coin, live on all five chains at one price. Nothing to copy, nobody to play against.</button></li>
+      </ol>
+      <svg class="kn-legend" viewBox="0 0 540 110" data-hover="-1">
+        <line class="kn-legend-rail" x1="0" y1="34" x2="540" y2="34"></line>
+        <circle class="kn-legend-ring" cx="270" cy="34" r="11" opacity="0"></circle>
+        <g data-chain="eth" opacity="1"><rect x="-4" y="0" width="108" height="110" fill="transparent"></rect><polyline class="kn-legend-lead" points="5,84 5,62 5,34"></polyline><circle data-head cx="5" cy="34" r="5" fill="#8C8DFB"></circle><circle cx="5" cy="92" r="4" fill="#8C8DFB"></circle><text x="15" y="96.5">Ethereum</text></g>
+        <g data-chain="base" opacity="1"><rect x="104" y="0" width="108" height="110" fill="transparent"></rect><polyline class="kn-legend-lead" points="113,84 113,62 113,34"></polyline><circle data-head cx="113" cy="34" r="5" fill="#2F7CFF"></circle><circle cx="113" cy="92" r="4" fill="#2F7CFF"></circle><text x="123" y="96.5">Base</text></g>
+        <g data-chain="rh" opacity="1"><rect x="212" y="0" width="108" height="110" fill="transparent"></rect><polyline class="kn-legend-lead" points="221,84 221,62 221,34"></polyline><circle data-head cx="221" cy="34" r="5" fill="#35E07A"></circle><circle cx="221" cy="92" r="4" fill="#35E07A"></circle><text x="231" y="96.5">Robinhood</text></g>
+        <g data-chain="bsc" opacity="1"><rect x="320" y="0" width="108" height="110" fill="transparent"></rect><polyline class="kn-legend-lead" points="329,84 329,62 329,34"></polyline><circle data-head cx="329" cy="34" r="5" fill="#F0B90B"></circle><circle cx="329" cy="92" r="4" fill="#F0B90B"></circle><text x="339" y="96.5">BSC</text></g>
+        <g data-chain="sol" opacity="1"><rect x="428" y="0" width="108" height="110" fill="transparent"></rect><polyline class="kn-legend-lead" points="437,84 437,62 437,34"></polyline><circle data-head cx="437" cy="34" r="5" fill="#9945FF"></circle><circle cx="437" cy="92" r="4" fill="#9945FF"></circle><text x="447" y="96.5">Solana</text></g>
+        <g data-one opacity="0" pointer-events="none"><circle class="kn-legend-one" cx="270" cy="34" r="5.5"></circle><text class="kn-one" x="270" y="14" text-anchor="middle">PANGEA</text></g>
+      </svg>
+    </footer>
+  </div>
+  <script src="js/mark.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/marks.js"></script>
+</body>
+</html>

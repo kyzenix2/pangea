@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explore coins · Pangea</title>
+  <link rel="icon" href="../logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..800&family=Instrument+Sans:wght@400..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/site.css">
+  <script src="../js/theme.js"></script>
+</head>
+<body>
+  <div class="app" data-page="explore">
+    <aside class="app-side"></aside>
+    <main class="app-main">
+      <div class="app-top"></div>
+      <p class="live-note"><i></i> Reading five chains</p>
+      <div class="feature-row">
+        <a class="feature official" href="token.html?id=pangea">
+          <div class="kicker">OFFICIAL · LIVE</div>
+          <h2>Pangea <em>$PANGEA</em></h2>
+          <p>Live on all five chains. 80% of platform revenue buys it back and burns it.</p>
+          <div class="meta">MCAP $1.75M · IN POOLS $149.0K</div>
+          <span class="pill-link">TRADE $PANGEA →</span>
+        </a>
+        <a class="feature" href="launch.html">
+          <div class="kicker">LAUNCH</div>
+          <h2>One coin, five chains</h2>
+          <p>Ethereum, Base, Robinhood, BSC and Solana pools open together, at one price.</p>
+          <div class="chain-pips"><b style="background:#8C8DFB">ETH</b><b style="background:#2F7CFF">BASE</b><b style="background:#35E07A">RH</b><b style="background:#F0B90B">BSC</b><b style="background:#9945FF">SOL</b></div>
+          <div class="go">LAUNCH A COIN</div>
+        </a>
+        <a class="feature" href="bridge.html">
+          <div class="kicker">BRIDGE</div>
+          <h2>Move between chains</h2>
+          <p>Burned on one chain, minted on the other. No wrapped copies.</p>
+          <div class="go">OPEN THE BRIDGE</div>
+        </a>
+        <a class="feature" href="live.html">
+          <div class="kicker">LIVE DATA</div>
+          <h2>Every pool, read live</h2>
+          <p>Prices, depth and volume, straight from the chains.</p>
+          <div class="meta">In pools $162.4K</div>
+          <div class="go">SEE LIVE DATA</div>
+        </a>
+      </div>
+      <p class="recent">Recently launched</p>
+      <div class="recent-row">
+        <a href="token.html?id=pinu">PEPE<span>16s ago</span></a>
+        <a href="token.html?id=earth">Flat Earth<span>23m ago</span></a>
+        <a href="token.html?id=flat">Flat Earthers<span>25m ago</span></a>
+        <a href="token.html?id=world">WORLD<span>27m ago · −0.30%</span></a>
+        <a href="token.html?id=laurasia">LAURASIA<span>27m ago · +4.09%</span></a>
+      </div>
+      <div class="filters">
+        <button type="button" data-sort="mcap" aria-pressed="true">Market cap</button>
+        <button type="button" data-sort="new" aria-pressed="false">New</button>
+        <button type="button" data-sort="vol" aria-pressed="false">Volume</button>
+        <button type="button" data-sort="gain" aria-pressed="false">Gainers</button>
+        <span class="count" data-count>10 coins</span>
+      </div>
+      <div class="coin-grid" data-coins></div>
+    </main>
+  </div>
+  <script src="../js/mark.js"></script>
+  <script src="../js/coins.js"></script>
+  <script src="../js/shell.js"></script>
+  <script src="../js/explore.js"></script>
+</body>
+</html>
