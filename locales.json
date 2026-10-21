@@ -1,0 +1,522 @@
+[
+  {
+    "code": "en",
+    "short": "EN",
+    "label": "English",
+    "copy": {
+      "h1": [
+        "Any coin.",
+        "One price.",
+        "Every chain."
+      ],
+      "lede": "Launch your coin once and it's live on five chains at the same price. Buy and sell from whichever one you already use.",
+      "why": [],
+      "openApp": "Open app",
+      "story": [
+        {
+          "tag": "The problem",
+          "text": "A coin takes off on one chain and copies of it show up on the other four."
+        },
+        {
+          "tag": "What it causes",
+          "text": "Buyers and liquidity split, and holders end up trading against each other. That is PVP."
+        },
+        {
+          "tag": "Pangea",
+          "text": "One coin, live on all five chains at one price. Nothing to copy, nobody to play against."
+        }
+      ],
+      "claim": "One coin, five chains, one price.",
+      "ctaLaunch": "Launch a token",
+      "time": {
+        "today": "Today",
+        "now": "Now",
+        "ago": "{n} million years ago"
+      },
+      "buy": "Buy Pangea",
+      "ca": "CA: TBA at launch",
+      "app": {
+        "home": "Home",
+        "explore": "Explore",
+        "launch": "Launch",
+        "bridge": "Bridge",
+        "live": "Live data",
+        "docs": "Docs",
+        "depth": "Pool depth",
+        "readSource": "Read from five chains",
+        "search": "Search name, ticker or address",
+        "searchShort": "Search tokens",
+        "seeAll": "See all",
+        "connect": "Connect"
+      }
+    }
+  },
+  {
+    "code": "zh",
+    "short": "中文",
+    "label": "中文",
+    "copy": {
+      "h1": [
+        "任何代币。",
+        "同一个价格。",
+        "每一条链。"
+      ],
+      "lede": "发一次币，就同时在五条链上线，价格相同。在你常用的那条链上直接买卖。",
+      "why": [],
+      "openApp": "打开应用",
+      "story": [
+        {
+          "tag": "问题",
+          "text": "一个币在一条链上火了，另外四条链上马上出现它的仿盘。"
+        },
+        {
+          "tag": "后果",
+          "text": "买家和流动性被分散，持有者变成互相对手。这就是 PVP。"
+        },
+        {
+          "tag": "Pangea",
+          "text": "一个币，同时在五条链上线，价格相同。没有可仿的，也就没有对手。"
+        }
+      ],
+      "claim": "一个代币，五条链，一个价格。",
+      "ctaLaunch": "发行代币",
+      "time": {
+        "today": "今天",
+        "now": "现在",
+        "ago": "{n} 百万年前"
+      },
+      "buy": "购买 Pangea",
+      "ca": "合约地址：上线时公布",
+      "app": {
+        "home": "首页",
+        "explore": "浏览",
+        "launch": "发行",
+        "bridge": "跨链",
+        "live": "实时数据",
+        "docs": "文档",
+        "depth": "池深度",
+        "readSource": "读取自五条链",
+        "search": "按名称、代码或地址搜索",
+        "searchShort": "搜索代币",
+        "seeAll": "查看全部",
+        "connect": "连接"
+      }
+    }
+  },
+  {
+    "code": "ja",
+    "short": "日本語",
+    "label": "日本語",
+    "copy": {
+      "h1": [
+        "どんなコインも。",
+        "ひとつの価格。",
+        "すべてのチェーンで。"
+      ],
+      "lede": "コインを一度発行すれば、5つのチェーンで同じ価格で同時に公開されます。いつも使っているチェーンでそのまま売買できます。",
+      "why": [],
+      "openApp": "アプリを開く",
+      "story": [
+        {
+          "tag": "問題",
+          "text": "あるチェーンでコインが伸びると、残り4つのチェーンにコピーが現れます。"
+        },
+        {
+          "tag": "その結果",
+          "text": "買い手も流動性も分かれ、ホルダー同士が取引相手になります。これがPVPです。"
+        },
+        {
+          "tag": "Pangea",
+          "text": "ひとつのコインが5つのチェーンで同じ価格で公開されます。コピーする余地も、争う相手もありません。"
+        }
+      ],
+      "claim": "ひとつのコイン、5つのチェーン、ひとつの価格。",
+      "ctaLaunch": "トークンを発行",
+      "time": {
+        "today": "現代",
+        "now": "現在",
+        "ago": "{n} 百万年前"
+      },
+      "buy": "Pangea を購入",
+      "ca": "CA: ローンチ時に公開",
+      "app": {
+        "home": "ホーム",
+        "explore": "探す",
+        "launch": "発行",
+        "bridge": "ブリッジ",
+        "live": "ライブデータ",
+        "docs": "ドキュメント",
+        "depth": "プール残高",
+        "readSource": "5つのチェーンから読み取り",
+        "search": "名前・ティッカー・アドレスで検索",
+        "searchShort": "トークンを検索",
+        "seeAll": "すべて表示",
+        "connect": "接続"
+      }
+    }
+  },
+  {
+    "code": "ko",
+    "short": "한국어",
+    "label": "한국어",
+    "copy": {
+      "h1": [
+        "어떤 코인이든.",
+        "하나의 가격.",
+        "모든 체인에서."
+      ],
+      "lede": "코인을 한 번만 발행하면 다섯 개 체인에 같은 가격으로 동시에 올라갑니다. 평소 쓰는 체인에서 바로 사고팔 수 있습니다.",
+      "why": [],
+      "openApp": "앱 열기",
+      "story": [
+        {
+          "tag": "문제",
+          "text": "한 체인에서 코인이 뜨면 나머지 네 체인에 복제 코인이 생깁니다."
+        },
+        {
+          "tag": "그 결과",
+          "text": "구매자와 유동성이 갈라지고 홀더끼리 서로를 상대로 거래하게 됩니다. 이것이 PVP입니다."
+        },
+        {
+          "tag": "Pangea",
+          "text": "하나의 코인이 다섯 체인에 같은 가격으로 올라갑니다. 복제할 것도, 맞설 상대도 없습니다."
+        }
+      ],
+      "claim": "하나의 코인, 다섯 개의 체인, 하나의 가격.",
+      "ctaLaunch": "토큰 발행하기",
+      "time": {
+        "today": "오늘",
+        "now": "지금",
+        "ago": "{n}백만 년 전"
+      },
+      "buy": "Pangea 구매",
+      "ca": "CA: 출시 시 공개",
+      "app": {
+        "home": "홈",
+        "explore": "탐색",
+        "launch": "발행",
+        "bridge": "브리지",
+        "live": "실시간 데이터",
+        "docs": "문서",
+        "depth": "풀 유동성",
+        "readSource": "다섯 개 체인에서 읽음",
+        "search": "이름, 티커 또는 주소로 검색",
+        "searchShort": "토큰 검색",
+        "seeAll": "전체 보기",
+        "connect": "연결"
+      }
+    }
+  },
+  {
+    "code": "es",
+    "short": "ES",
+    "label": "Español",
+    "copy": {
+      "h1": [
+        "Cualquier moneda.",
+        "Un solo precio.",
+        "Todas las cadenas."
+      ],
+      "lede": "Lanza tu moneda una vez y sale en cinco cadenas al mismo precio. Compra y vende desde la que ya usas.",
+      "why": [],
+      "openApp": "Abrir la app",
+      "story": [
+        {
+          "tag": "El problema",
+          "text": "Una moneda despega en una cadena y aparecen copias en las otras cuatro."
+        },
+        {
+          "tag": "Lo que provoca",
+          "text": "Los compradores y la liquidez se dividen, y los holders acaban operando unos contra otros. Eso es PVP."
+        },
+        {
+          "tag": "Pangea",
+          "text": "Una sola moneda, en las cinco cadenas y al mismo precio. Nada que copiar, nadie contra quien jugar."
+        }
+      ],
+      "claim": "Una moneda, cinco cadenas, un solo precio.",
+      "ctaLaunch": "Lanzar un token",
+      "time": {
+        "today": "Hoy",
+        "now": "Ahora",
+        "ago": "hace {n} millones de años"
+      },
+      "buy": "Comprar Pangea",
+      "ca": "CA: se anunciará en el lanzamiento",
+      "app": {
+        "home": "Inicio",
+        "explore": "Explorar",
+        "launch": "Lanzar",
+        "bridge": "Puente",
+        "live": "Datos en vivo",
+        "docs": "Documentación",
+        "depth": "Profundidad del pool",
+        "readSource": "Leído de cinco cadenas",
+        "search": "Busca por nombre, ticker o dirección",
+        "searchShort": "Buscar tokens",
+        "seeAll": "Ver todo",
+        "connect": "Conectar"
+      }
+    }
+  },
+  {
+    "code": "pt",
+    "short": "PT",
+    "label": "Português",
+    "copy": {
+      "h1": [
+        "Qualquer moeda.",
+        "Um só preço.",
+        "Todas as redes."
+      ],
+      "lede": "Lance sua moeda uma vez e ela entra em cinco redes pelo mesmo preço. Compre e venda na rede que você já usa.",
+      "why": [],
+      "openApp": "Abrir o app",
+      "story": [
+        {
+          "tag": "O problema",
+          "text": "Uma moeda dispara em uma rede e surgem cópias nas outras quatro."
+        },
+        {
+          "tag": "O que isso causa",
+          "text": "Compradores e liquidez se dividem, e os holders acabam negociando uns contra os outros. Isso é PVP."
+        },
+        {
+          "tag": "Pangea",
+          "text": "Uma só moeda, nas cinco redes e pelo mesmo preço. Nada para copiar, ninguém contra quem jogar."
+        }
+      ],
+      "claim": "Uma moeda, cinco redes, um só preço.",
+      "ctaLaunch": "Lançar um token",
+      "time": {
+        "today": "Hoje",
+        "now": "Agora",
+        "ago": "há {n} milhões de anos"
+      },
+      "buy": "Comprar Pangea",
+      "ca": "CA: a anunciar no lançamento",
+      "app": {
+        "home": "Início",
+        "explore": "Explorar",
+        "launch": "Lançar",
+        "bridge": "Ponte",
+        "live": "Dados ao vivo",
+        "docs": "Documentação",
+        "depth": "Profundidade do pool",
+        "readSource": "Lido de cinco cadeias",
+        "search": "Busque por nome, ticker ou endereço",
+        "searchShort": "Buscar tokens",
+        "seeAll": "Ver tudo",
+        "connect": "Conectar"
+      }
+    }
+  },
+  {
+    "code": "ru",
+    "short": "RU",
+    "label": "Русский",
+    "copy": {
+      "h1": [
+        "Любая монета.",
+        "Одна цена.",
+        "Все сети."
+      ],
+      "lede": "Запустите монету один раз, и она появится в пяти сетях по одной цене. Покупайте и продавайте в той сети, которой уже пользуетесь.",
+      "why": [],
+      "openApp": "Открыть приложение",
+      "story": [
+        {
+          "tag": "Проблема",
+          "text": "Монета взлетает в одной сети, и в четырёх других появляются её копии."
+        },
+        {
+          "tag": "К чему это ведёт",
+          "text": "Покупатели и ликвидность делятся, а держатели торгуют друг против друга. Это и есть PVP."
+        },
+        {
+          "tag": "Pangea",
+          "text": "Одна монета сразу в пяти сетях по одной цене. Копировать нечего, играть не против кого."
+        }
+      ],
+      "claim": "Одна монета, пять сетей, одна цена.",
+      "ctaLaunch": "Запустить токен",
+      "time": {
+        "today": "Сегодня",
+        "now": "Сейчас",
+        "ago": "{n} млн лет назад"
+      },
+      "buy": "Купить Pangea",
+      "ca": "CA: будет объявлен на запуске",
+      "app": {
+        "home": "Главная",
+        "explore": "Обзор",
+        "launch": "Запуск",
+        "bridge": "Мост",
+        "live": "Данные в реальном времени",
+        "docs": "Документация",
+        "depth": "Глубина пула",
+        "readSource": "Читается с пяти сетей",
+        "search": "Поиск по названию, тикеру или адресу",
+        "searchShort": "Поиск токенов",
+        "seeAll": "Показать всё",
+        "connect": "Подключить"
+      }
+    }
+  },
+  {
+    "code": "tr",
+    "short": "TR",
+    "label": "Türkçe",
+    "copy": {
+      "h1": [
+        "Her coin.",
+        "Tek fiyat.",
+        "Her zincir."
+      ],
+      "lede": "Coinini bir kez çıkar, beş zincirde aynı fiyatla yayına girsin. Zaten kullandığın zincirden al ve sat.",
+      "why": [],
+      "openApp": "Uygulamayı aç",
+      "story": [
+        {
+          "tag": "Sorun",
+          "text": "Bir coin bir zincirde yükselir, diğer dört zincirde kopyaları çıkar."
+        },
+        {
+          "tag": "Sonucu",
+          "text": "Alıcılar ve likidite bölünür, sahipler birbirine karşı işlem yapar. PVP budur."
+        },
+        {
+          "tag": "Pangea",
+          "text": "Tek coin, beş zincirde ve aynı fiyatta. Kopyalanacak bir şey yok, karşında kimse yok."
+        }
+      ],
+      "claim": "Tek coin, beş zincir, tek fiyat.",
+      "ctaLaunch": "Token çıkar",
+      "time": {
+        "today": "Bugün",
+        "now": "Şimdi",
+        "ago": "{n} milyon yıl önce"
+      },
+      "buy": "Pangea satın al",
+      "ca": "CA: lansmanda açıklanacak",
+      "app": {
+        "home": "Ana sayfa",
+        "explore": "Keşfet",
+        "launch": "Çıkar",
+        "bridge": "Köprü",
+        "live": "Canlı veri",
+        "docs": "Belgeler",
+        "depth": "Havuz derinliği",
+        "readSource": "Beş zincirden okundu",
+        "search": "İsim, ticker veya adresle ara",
+        "searchShort": "Token ara",
+        "seeAll": "Tümünü gör",
+        "connect": "Bağlan"
+      }
+    }
+  },
+  {
+    "code": "fr",
+    "short": "FR",
+    "label": "Français",
+    "copy": {
+      "h1": [
+        "N'importe quel coin.",
+        "Un seul prix.",
+        "Toutes les chaînes."
+      ],
+      "lede": "Lancez votre coin une fois et il est disponible sur cinq chaînes au même prix. Achetez et vendez depuis celle que vous utilisez déjà.",
+      "why": [],
+      "openApp": "Ouvrir l’app",
+      "story": [
+        {
+          "tag": "Le problème",
+          "text": "Un coin décolle sur une chaîne et des copies apparaissent sur les quatre autres."
+        },
+        {
+          "tag": "Ce que ça provoque",
+          "text": "Les acheteurs et la liquidité se divisent, et les détenteurs finissent par trader les uns contre les autres. C’est le PVP."
+        },
+        {
+          "tag": "Pangea",
+          "text": "Un seul coin, sur les cinq chaînes et au même prix. Rien à copier, personne contre qui jouer."
+        }
+      ],
+      "claim": "Un coin, cinq chaînes, un seul prix.",
+      "ctaLaunch": "Lancer un token",
+      "time": {
+        "today": "Aujourd’hui",
+        "now": "Maintenant",
+        "ago": "il y a {n} millions d’années"
+      },
+      "buy": "Acheter Pangea",
+      "ca": "CA : communiqué au lancement",
+      "app": {
+        "home": "Accueil",
+        "explore": "Explorer",
+        "launch": "Lancer",
+        "bridge": "Pont",
+        "live": "Données en direct",
+        "docs": "Documentation",
+        "depth": "Profondeur du pool",
+        "readSource": "Lu sur cinq chaînes",
+        "search": "Chercher par nom, ticker ou adresse",
+        "searchShort": "Chercher des tokens",
+        "seeAll": "Tout voir",
+        "connect": "Connecter"
+      }
+    }
+  },
+  {
+    "code": "de",
+    "short": "DE",
+    "label": "Deutsch",
+    "copy": {
+      "h1": [
+        "Jeder Coin.",
+        "Ein Preis.",
+        "Jede Chain."
+      ],
+      "lede": "Starte deinen Coin einmal und er ist auf fünf Chains zum selben Preis live. Kaufe und verkaufe auf der Chain, die du schon nutzt.",
+      "why": [],
+      "openApp": "App öffnen",
+      "story": [
+        {
+          "tag": "Das Problem",
+          "text": "Ein Coin hebt auf einer Chain ab und auf den anderen vier tauchen Kopien auf."
+        },
+        {
+          "tag": "Die Folge",
+          "text": "Käufer und Liquidität teilen sich auf, und die Holder handeln gegeneinander. Das ist PVP."
+        },
+        {
+          "tag": "Pangea",
+          "text": "Ein Coin, auf allen fünf Chains zum selben Preis. Nichts zu kopieren, niemand zum Gegeneinanderspielen."
+        }
+      ],
+      "claim": "Ein Coin, fünf Chains, ein Preis.",
+      "ctaLaunch": "Token starten",
+      "time": {
+        "today": "Heute",
+        "now": "Jetzt",
+        "ago": "vor {n} Mio. Jahren"
+      },
+      "buy": "Pangea kaufen",
+      "ca": "CA: wird beim Launch bekannt gegeben",
+      "app": {
+        "home": "Start",
+        "explore": "Entdecken",
+        "launch": "Starten",
+        "bridge": "Bridge",
+        "live": "Live-Daten",
+        "docs": "Doku",
+        "depth": "Tiefe des Pools",
+        "readSource": "Von fünf Chains gelesen",
+        "search": "Nach Name, Ticker oder Adresse suchen",
+        "searchShort": "Token suchen",
+        "seeAll": "Alle anzeigen",
+        "connect": "Verbinden"
+      }
+    }
+  }
+]
