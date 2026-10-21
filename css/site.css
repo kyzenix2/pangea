@@ -505,6 +505,11 @@ body:has(.kn-hero[data-theme="dark"]) { background: #09090a; }
   background: var(--card);
   padding: 0 14px;
   font-size: 14px;
+  color: var(--ink);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .connect-btn { font-weight: 600; }
 .live-note { display: flex; align-items: center; gap: 8px; color: var(--soft); font-size: 13px; margin: 0 0 14px; }
